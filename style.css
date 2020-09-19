@@ -33,6 +33,14 @@ header {
   max-width: 90%;
 }
 
+.icons:hover {
+  background: none;
+}
+
+.socialmedia a:hover {
+  background: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
