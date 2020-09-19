@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="top" class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#medium-articles">Medium Articles</a></li>
+          <li><a href="index.html#aboutme">About Me</a></li>
+        </ul>
+      </nav>
+      <h1>Send me an emails</h1>
+      <form action="https://formspree.io/xvovoogn" method="POST">
+        <div class="form-container">
+          <h3>Your email:</h3>
+          <input class="input-elements" type="text" name="_replyto" />
+        </div>
+        <div class="form-container">
+          <h3>Subject:</h3>
+          <input class="input-elements" type="text" />
+        </div>
+        <div class="form-container">
+          <h3>Your message:</h3>
+          <textarea
+            class="input-elements"
+            style="height: 150px"
+            name="message"
+          ></textarea>
+        </div>
+
+        <button id="button" type="submit" value="submit">Send</button>
+      </form>
+    </header>
+  </body>
+</html>
