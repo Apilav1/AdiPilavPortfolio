@@ -262,6 +262,10 @@ h1 {
   margin-bottom: 15px;
 }
 
+figure a:hover {
+  background: none;
+}
+
 .article-container-div1 {
   margin: 0;
   padding: 0;
