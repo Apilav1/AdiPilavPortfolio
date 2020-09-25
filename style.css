@@ -180,6 +180,10 @@ h1 {
   margin-top: 0;
 }
 
+.language-containter {
+  max-height: 40px;
+}
+
 .projects-container {
   min-height: 100vh;
   background-color: #222;
